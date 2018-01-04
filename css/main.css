@@ -1,0 +1,31 @@
+html {
+  box-sizing: border-box;
+  font-family: Georgia;
+  margin: 0 0 1rem;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.link-card {
+  text-decoration: none;
+  color: #512200;
+  padding: 1rem;
+  border: 3px solid #9a816d;
+  border-radius: 6px;
+  background-color: #dcd4cd;
+  margin: 0;
+  display: inline-block;
+}
+
+.link-card:hover {
+  background-color: #cabdb2;
+}
+
+.link-card h2 {
+  font-family: Dosis, sans-serif;;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  margin: 0;
+}
